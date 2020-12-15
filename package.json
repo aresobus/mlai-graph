@@ -1,0 +1,23 @@
+{
+  "name": "mlai-graph-nudity-detection",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Media Central Visual Detection For NBC Studios",
+  "main": "index.js",
+  "scripts": {
+    "dev": "gulp",
+    "build": "gulp dist",
+    "postinstall": "gulp dist"
+  },
+  "author": "Alex Lebedyev",
+  "email": "oleksandr.lebedyev@nbcuni.com",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-clean-css": "^3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-uglify": "^3.0.0"
+  }
+}
